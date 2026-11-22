@@ -1,0 +1,7 @@
+# Copy to terraform.tfvars (optional). Values here apply to every workspace.
+location            = "centralindia"
+owner               = "batch-07"
+assign_storage_role = true
+extra_tags = {
+  cost_center = "training"
+}

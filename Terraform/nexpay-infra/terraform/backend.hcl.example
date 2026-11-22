@@ -1,0 +1,6 @@
+# Copy to backend.hcl and fill in the values from the bootstrap output.
+resource_group_name  = "rg-nexpay-tfstate"
+storage_account_name = "sttfnexpayXXXXXX"
+container_name       = "tfstate"
+key                  = "nexpay/app.tfstate"
+# use_azuread_auth   = true   # production: use Entra ID (RBAC) instead of storage keys
