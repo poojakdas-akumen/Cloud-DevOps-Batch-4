@@ -1,10 +1,10 @@
 data "azurerm_resource_group" "rg" {
-  name = "pooja_devops"
+  name = "givename"
 }
 
 resource "azurerm_storage_account" "storage" {
 
-  name                     = "pooja${terraform.workspace}stg01"
+  name                     = "name${terraform.workspace}stg01"
 
   resource_group_name      = data.azurerm_resource_group.rg.name
 
