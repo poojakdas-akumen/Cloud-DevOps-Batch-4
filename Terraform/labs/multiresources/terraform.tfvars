@@ -1,10 +1,10 @@
-subscription_id     = "770a8493-2591-4e7e-84e3-b99ada39cbbf"
+subscription_id     = "give name"
 
-location            = "East US"
+location            = "give name"
 
-resource_group_name = "pooja-devops-rg"
+resource_group_name = "give name"
 
-vnet_name           = "pooja-vnet"
+vnet_name           = "give name"
 
 vnet_address_space  = "10.0.0.0/16"
 
@@ -12,10 +12,10 @@ subnet_name         = "app-subnet"
 
 subnet_prefix       = "10.0.1.0/27"
 
-storage_account_name = "poojakabirdasdevopsblob"
+storage_account_name = "give name"
 
-vm_name             = "pooja-linux-vm"
+vm_name             = "give name"
 
 admin_username      = "azureuser"
 
-admin_password      = "Pooja@12345678"
+admin_password      = "givepassword"
